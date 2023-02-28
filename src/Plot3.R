@@ -7,6 +7,6 @@ summary(new_data)
 library(ggplot2)
 data100 = new_data[1:100,]
 View(data100)
-Plot1 = ggplot(data100, aes(math.score)) + geom_histogram(color = "gray", aes(fill = gender))
-Plot1 = Plot1 + xlab("Math Score") + ylab("gender") + ggtitle("Math Score by Gender")
-Plot1
+Plot3 = ggplot(data100) + geom_bin2d(aes(x= writing.score, y= parental.level.of.education))
+Plot3 = Plot3 + xlab("Writing Scores") + ylab("Parental Education")
+Plot3
