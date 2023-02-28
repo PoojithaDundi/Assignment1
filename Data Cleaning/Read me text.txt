@@ -1,1 +1,10 @@
+Gender field tells about the students gender, here we have male and female
+Race/ethnicity - this field tells about the 4 student groups i.e.,. group a, group b , group c , group d. This group represents race/ethinicty
+Parental level of education - this field tells about the level of education the students parents
+Lunch - this field tells about the students lunch plan. This includes standard, free/reduced 
+Test preparation course- this field tells about the test preparation course of the student. It says either none or completed
+Math Score- This field tells about the students score in Maths
+Reading Score - This field tells about the students score in Reading
+Writing Score - This field tells about the students writing score
 
+Now, we need to perform the data visualization for the above fields
